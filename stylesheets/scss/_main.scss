@@ -1,0 +1,77 @@
+@import "variables";
+
+.offers {
+  margin-top: 25px;
+  height: 40px;
+  color: $white;
+  background-color: $color-basic;
+  font-size: 27px;
+}
+
+.products {
+  margin: 20px 0px;
+  box-sizing: content-box;
+}
+
+.goods {
+  border: none;
+  margin: 0 25px 0 30px;
+  padding: 15px;
+  width: 230px;
+  height: 265px;
+  background-color: $white;
+  border: 1px solid $white;
+   &:hover {
+    border: 1px solid $color-basic;
+    cursor: pointer;
+  }
+}
+
+.flowing-about-first {
+  width: 200px;
+  margin-top: 10px;
+}
+
+.vertical-align-price {
+  margin-top: 15px;
+  p {
+    font-size: 18px;
+    opacity: 0.6;
+  }
+}
+
+.buy {
+  font-size: 32px;
+  background-color: $color-text;
+  color: $white;
+  border: none;
+  margin: 19px -51px 0 0;
+  padding: 7px;
+}
+
+.flowing-img {
+  width: 150px;
+}
+
+.align-news {
+  margin: 50px 0 0 70px;
+  img {
+    width: 120px;
+    float: left;
+  }
+}
+
+
+.news-inf {
+  margin-left: 60px;
+  li:first-child {
+    font-size: 18px;
+    color: $color-text;
+  }
+}
+
+.news-data {
+  font-size: 16px;
+  margin-top: -5px;
+  opacity: 0.5;
+}
