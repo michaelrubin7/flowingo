@@ -415,7 +415,7 @@
                   <span class="input-group-btn">
                     <label for="login" class="btn btn-default" for="login" type="button"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></label>
                   </span>
-                  <input id="login" name="login" type="text" class="form-control" placeholder="Введите логин">
+                  <input id="email" name="email" type="text" class="form-control" placeholder="Введите логин">
                 </div><!-- /input-group -->
                 <div class="input-group group-authorization">
                   <span class="input-group-btn">
